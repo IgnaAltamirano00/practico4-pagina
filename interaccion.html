@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERACCION</title>
+    <script src="./funciones.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body id="seg">
+    <header>
+        <button id="interaccion-boton-2" type="button" onclick="location.href='index.html'">REGRESAR</button>INTERACCION
+    </header>
+    <form>
+        <br>
+        <span>UNIVERSIDAD: </span><input type="text" id="universidad-nombre" placeholder="nombre universidad"><br><br>
+        <span>ANIOS DE CURSADO:</span>
+        <input type="checkbox" id="anio-1">2023
+        <input type="checkbox" id="anio-2">2024
+        <input type="checkbox" id="anio-3">2025
+        <input type="checkbox" id="anio-4">2026
+        <input type="checkbox" id="anio-5">2027 
+        <br><br>
+        <span>PRECIO POR MES</span><input type="number" name="precio" id="precio" placeholder="precio" min="0"><br><br>
+        <span>ELIGA EL METODO DE PAGO</span>
+        <select id="metodo">
+            <option value="credito">Credito (15% OFF)</option>
+            <option value="debito">Debito (10% OFF)</option>
+            <option value="transferencia">Transferencia (0% OFF)</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="calcular()">CALCULAR</button>
+        <button type="button" onclick="Borrar()">Borrar</button>
+    </form>
+    <br>
+    <div id="resultado"></div>
+
+</body>
+
+<!--se ingresa una universidad -  text
+anios de la carrera - number - checkbox
+costo por mes - number
+calculo el costo por anio - number - por la cantidad de anios que eligio
+pregunto como quiere pagar - select
+depende de la opcion le hago un descuento
+y le muestro
+La universidad xxxxx el anio xxx le costara xxxxx pesos en todo el 
+-->

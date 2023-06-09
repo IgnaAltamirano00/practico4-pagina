@@ -1,0 +1,87 @@
+header{
+    text-align: center;
+    font-size: xx-large;
+}
+
+body{
+    font-size: large;
+}
+
+#primer{    
+    background-color: rgb(64, 150, 235);
+}
+
+#seg{
+    background-color: lightgray;
+    font-size: x-large;
+}
+
+#interaccion-boton-1{
+    background-color: lightgrey;
+    color: black;
+    float: right;
+    width: 200px;
+    height: 40px;
+}
+
+#interaccion-boton-2{
+    background-color: lightgrey;
+    color: black;
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+
+.i1{
+    float: left;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.i2{
+    float: right;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.i3{
+    float: right;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.i4{
+    float: left;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.index-d1{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgb(91, 210, 250);
+}
+
+.index-d2{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgb(74, 203, 246);
+}
+
+.index-d3{
+    border: 2px;
+    margin: 10px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#resultado{
+    text-align: center;
+}
